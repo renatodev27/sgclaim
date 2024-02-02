@@ -554,6 +554,11 @@ pre code {
   overflow-y: scroll;
 }
 
+#contact .container .contactForm {
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
