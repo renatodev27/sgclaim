@@ -289,7 +289,7 @@
                 </div>
                 <div class="col-lg-4">
                     <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="assets/imgs/4.JPG" alt="...">
+                        <img class="card-img-top" src="assets/imgs/5.JPG" alt="...">
                         <span class="card-body">
                             <h4 class="title mt-4">3 Reasons Why You Should Hire A Public Insurance Adjuster</h4>
                             <p class="xs-font">
@@ -366,241 +366,245 @@
     <section id="contact" class="section pb-0">
 
         <div class="container">
-            <div class="section-header text-center">
-                <h3 class="section-title">Free Claim Review</h3>
-                <h6 class="xs-font">Don't wait any longer, begin the process today by telling us more about your situation.</h6>
-            </div>
-            <hr class="pb-5 mb-3 mt-4">
-            <div class="section-body">
-                <div class="first-title">
-                    <h5>What best describes your claim situation? <span class="text-secondary small">(Optional)</span></h5>
-                    <div>
-                        <input type="radio" name="radiocr" id="new" value="">
-                        <label for="new">New Claim</label>
+            <form class="contactForm" action="assets/contact.php" method="POST">
+                <div class="section-header text-center">
+                    <h3 class="section-title">Free Claim Review</h3>
+                    <h6 class="xs-font">Don't wait any longer, begin the process today by telling us more about your situation.</h6>
+                </div>
+                <hr class="pb-5 mb-3 mt-4">
+                <div class="section-body">
+                    <div class="first-title">
+                        <h5>What best describes your claim situation? <span class="text-secondary small">(Optional)</span></h5>
+                        <div>
+                            <input type="radio" name="radiocr" id="new" value="">
+                            <label for="new">New Claim</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="radiocr" id="denied" value="">
+                            <label for="denied">Denied Claim</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="radiocr" id="underpaid" value="">
+                            <label for="underpaid">Underpaid Claim</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="radiocr" id="filing" value="">
+                            <label for="filing">I am thinking about filing a claim.</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="radiocr" id="hire" value="">
+                            <label for="hire">I want to hire a public adjuster to hel optimize my insurance claim.</label>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" name="radiocr" id="denied" value="">
-                        <label for="denied">Denied Claim</label>
+                    <div class="second-title mt-4">
+                        <h5>What type of insurance claim do you have questions about? <span class="text-secondary small">(Optional)</span></h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr1" id="firesmoke" value="">
+                                    <label for="firesmoke">Fire/Smoke</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="hurrac" value="">
+                                    <label for="hurrac">Hurracaine</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="wdamage" value="">
+                                    <label for="wdamage">Water Damage</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="snowice" value="">
+                                    <label for="snowice">Snow/Ice</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="cdamage" value="">
+                                    <label for="cdamage">Crop Damage</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="other1" value="">
+                                    <label for="other1">Other</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr1" id="hail" value="">
+                                    <label for="hail">Hail</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="flood" value="">
+                                    <label for="flood">Flood</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="theft" value="">
+                                    <label for="theft">Theft</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="tornado" value="">
+                                    <label for="tornado">Tornado</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="lightn" value="">
+                                    <label for="lightn">Lightning</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr1" id="wind" value="">
+                                    <label for="wind">Wind</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="bpipe" value="">
+                                    <label for="bpipe">Burst Pipe</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="vandal" value="">
+                                    <label for="vandal">Vandalism</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="binterr" value="">
+                                    <label for="binterr">Business Interruption</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr1" id="powersur" value="">
+                                    <label for="powersur">Power Surge</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" name="radiocr" id="underpaid" value="">
-                        <label for="underpaid">Underpaid Claim</label>
+                    <div class="third-title mt-4">
+                        <h5>What type of damage or loss do you have? <span class="text-secondary small">(Optional)</span></h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="roof" value="">
+                                    <label for="roof">Roof</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="fence" value="">
+                                    <label for="fence">Fence</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="income" value="">
+                                    <label for="income">Business Income</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="exterior" value="">
+                                    <label for="exterior">Exterior</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="contents" value="">
+                                    <label for="contents">Contents</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="rental" value="">
+                                    <label for="rental">Rental Income</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="inter" value="">
+                                    <label for="inter">Interior</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="tloss" value="">
+                                    <label for="tloss">Total Loss</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="other" value="">
+                                    <label for="other">Other</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" name="radiocr" id="filing" value="">
-                        <label for="filing">I am thinking about filing a claim.</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="radiocr" id="hire" value="">
-                        <label for="hire">I want to hire a public adjuster to hel optimize my insurance claim.</label>
+                    <div class="fourth-title mt-4">
+                        <h5>Approximately how much are your total damages? <span class="text-secondary small">(Optional)</span></h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price1" value="">
+                                    <label for="price1">Less than $10,000</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price2" value="">
+                                    <label for="price1">$50,000 - $100,000</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price3" value="">
+                                    <label for="price3">$500,000 - $1,000,000</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price4" value="">
+                                    <label for="price4">$10,000 - $25,000</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price5" value="">
+                                    <label for="price5">$25,000 - $50,000</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price6" value="">
+                                    <label for="price6">$1,000,000 - and more</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price7" value="">
+                                    <label for="price7">$100,000 - $250,000</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="radiocr2" id="price8" value="">
+                                    <label for="price8">$250,000 - $500,000</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="second-title mt-4">
-                    <h5>What type of insurance claim do you have questions about? <span class="text-secondary small">(Optional)</span></h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr1" id="firesmoke" value="">
-                                <label for="firesmoke">Fire/Smoke</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="hurrac" value="">
-                                <label for="hurrac">Hurracaine</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="wdamage" value="">
-                                <label for="wdamage">Water Damage</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="snowice" value="">
-                                <label for="snowice">Snow/Ice</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="cdamage" value="">
-                                <label for="cdamage">Crop Damage</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="other1" value="">
-                                <label for="other1">Other</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr1" id="hail" value="">
-                                <label for="hail">Hail</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="flood" value="">
-                                <label for="flood">Flood</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="theft" value="">
-                                <label for="theft">Theft</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="tornado" value="">
-                                <label for="tornado">Tornado</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="lightn" value="">
-                                <label for="lightn">Lightning</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr1" id="wind" value="">
-                                <label for="wind">Wind</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="bpipe" value="">
-                                <label for="bpipe">Burst Pipe</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="vandal" value="">
-                                <label for="vandal">Vandalism</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="binterr" value="">
-                                <label for="binterr">Business Interruption</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr1" id="powersur" value="">
-                                <label for="powersur">Power Surge</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="third-title mt-4">
-                    <h5>What type of damage or loss do you have? <span class="text-secondary small">(Optional)</span></h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="roof" value="">
-                                <label for="roof">Roof</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="fence" value="">
-                                <label for="fence">Fence</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="income" value="">
-                                <label for="income">Business Income</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="exterior" value="">
-                                <label for="exterior">Exterior</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="contents" value="">
-                                <label for="contents">Contents</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="rental" value="">
-                                <label for="rental">Rental Income</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="inter" value="">
-                                <label for="inter">Interior</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="tloss" value="">
-                                <label for="tloss">Total Loss</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="other" value="">
-                                <label for="other">Other</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fourth-title mt-4">
-                    <h5>Approximately how much are your total damages? <span class="text-secondary small">(Optional)</span></h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="price1" value="">
-                                <label for="price1">Less than $10,000</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="price2" value="">
-                                <label for="price1">$50,000 - $100,000</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="price3" value="">
-                                <label for="price3">$500,000 - $1,000,000</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="price4" value="">
-                                <label for="price4">$10,000 - $25,000</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="price5" value="">
-                                <label for="price5">$25,000 - $50,000</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="price6" value="">
-                                <label for="price6">$1,000,000 - and more</label>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <input type="radio" name="radiocr2" id="price7" value="">
-                                <label for="price7">$100,000 - $250,000</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="radiocr2" id="price8" value="">
-                                <label for="price8">$250,000 - $500,000</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    
+                <div class="row mt-5">
+                    <div class="col-0 col-sm-2"></div>
 
-            <div class="row align-items-center justify-content-between mt-5">
-                <div class="col-md-8 col-lg-7">
-
-                    <form class="contact-form">
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <input type="text" class="form-control" placeholder="Name">
+                    <div class="col-8">
+    
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                </div>
+                                <div class="col form-group">
+                                    <input type="phone" class="form-control" name="phone" placeholder="Phone">
+                                </div>
                             </div>
-                            <div class="col form-group">
-                                <input type="phone" class="form-control" placeholder="Phone">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email">
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-block btn-send" value="Contact Us">
-                        </div>
-                    </form>
+                            <div class="form-group">
+                                <textarea id="" cols="30" rows="5" name="message" class="form-control" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary btn-block btn-send" value="Contact Us">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-0 col-md-2"></div>
                 </div>
-                <div class="col-md-4 d-none d-md-block order-1">
-                    <ul class="list">
-                        <li class="list-head">
-                            <h6>CONTACT INFO</h6>
-                        </li>
-                        <li class="list-body">
-                            <p class="py-2">Contact us and we'll get back to you within 24 hours.</p>
-                            <p class="py-2"><i class="ti-user"></i> Brisia  San German  </p>
-                            <p class="py-2"><i class="ti-location-pin"></i> 1403 Sparkling Cove Dr Buford, GA  30518</p>
-                            <p class="py-2"><i class="ti-email"></i> info@sgclaims.us</p>
-                            <p class="py-2"><i class="ti-microphone"></i> (404) 784 3070</p>
+            </form>
 
-                        </li>
-                    </ul> 
-                </div>
-            </div>
+            <ul class="list mt-4">
+                <li class="list-head">
+                    <h6>CONTACT INFO</h6>
+                </li>
+                <li class="list-body">
+                    <p class="py-2">Contact us and we'll get back to you within 24 hours.</p>
+                    <p class="py-2"><i class="ti-user"></i> Brisia  San German  </p>
+                    <p class="py-2"><i class="ti-location-pin"></i> 1403 Sparkling Cove Dr Buford, GA  30518</p>
+                    <p class="py-2"><i class="ti-email"></i> info@sgclaims.us</p>
+                    <p class="py-2"><i class="ti-microphone"></i> (404) 784 3070</p>
+
+                </li>
+            </ul> 
 
             <footer class="footer mt-5 border-top">
                 <div class="row align-items-center justify-content-center">
